@@ -3,6 +3,8 @@
     <!-- 跳转  声明式的跳转 router-link -->
     <nuxt-link to="/">首页</nuxt-link>
     <nuxt-link to="/blog">博客页</nuxt-link>
+    <nuxt-link to="product">给proder组件发信息</nuxt-link>
+    <nuxt-link to='proder'>接收消息</nuxt-link>
    
     <Nuxt />
      <!-- 相当于router-view -->
