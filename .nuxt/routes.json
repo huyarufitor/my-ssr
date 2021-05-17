@@ -9,38 +9,45 @@
         "name": "blog-comment",
         "path": "comment",
         "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/blog/comment.vue",
-        "chunkName": "pages/blog/comment"
+        "chunkName": "pages/blog/comment",
+        "_name": "_980fda4e"
       },
       {
         "name": "blog-id",
         "path": ":id?",
         "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/blog/_id.vue",
-        "chunkName": "pages/blog/_id"
+        "chunkName": "pages/blog/_id",
+        "_name": "_84371c98"
       }
-    ]
+    ],
+    "_name": "_e23cdeee"
   },
   {
     "name": "nextick",
     "path": "/nextick",
     "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/nextick/index.vue",
-    "chunkName": "pages/nextick/index"
+    "chunkName": "pages/nextick/index",
+    "_name": "_76f6642c"
   },
   {
     "name": "proder",
     "path": "/proder",
     "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/proder.vue",
-    "chunkName": "pages/proder"
+    "chunkName": "pages/proder",
+    "_name": "_1da4432a"
   },
   {
     "name": "product",
     "path": "/product",
     "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/product.vue",
-    "chunkName": "pages/product"
+    "chunkName": "pages/product",
+    "_name": "_6d12aa58"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_34d4860a"
   }
 ]

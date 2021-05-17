@@ -2,7 +2,7 @@ export default {
   mode:'universal',
   server:{
     host :'0.0.0.0',
-    port: 3000,
+    port: 8001,
   },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -24,7 +24,8 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
+    { src:'@/plugins/vue-mavon-editor',ssr:false}
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

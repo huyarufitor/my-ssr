@@ -31,7 +31,11 @@ module.exports = {
             {test: /\.(jpg|png|gif|bmp|jpeg)$/, use: "url-loader?limit=8000"},
             {test: /\.(tff|eot|svg|woff|woff2)$/, use: "url-loader"},
             {test:/\.js$/, use:'babel-loader',exclude:/node_modules/},
-            {test: /\.vue$/, use: 'vue-loader'}//处理vue打包的规则
+            {test: /\.vue$/, use: 'vue-loader'},//处理vue打包的规则,
+            {
+                test: /\.sass$/,
+                loaders: ['style', 'css', 'sass']
+              }
         ]
     }
 };
