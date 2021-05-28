@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _e23cdeee = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
 const _980fda4e = () => interopDefault(import('../pages/blog/comment.vue' /* webpackChunkName: "pages/blog/comment" */))
 const _84371c98 = () => interopDefault(import('../pages/blog/_id.vue' /* webpackChunkName: "pages/blog/_id" */))
+const _8e28312c = () => interopDefault(import('../pages/mavon.vue' /* webpackChunkName: "pages/mavon" */))
 const _76f6642c = () => interopDefault(import('../pages/nextick/index.vue' /* webpackChunkName: "pages/nextick/index" */))
 const _1da4432a = () => interopDefault(import('../pages/proder.vue' /* webpackChunkName: "pages/proder" */))
 const _6d12aa58 = () => interopDefault(import('../pages/product.vue' /* webpackChunkName: "pages/product" */))
@@ -40,6 +41,10 @@ export const routerOptions = {
       component: _84371c98,
       name: "blog-id"
     }]
+  }, {
+    path: "/mavon",
+    component: _8e28312c,
+    name: "mavon"
   }, {
     path: "/nextick",
     component: _76f6642c,

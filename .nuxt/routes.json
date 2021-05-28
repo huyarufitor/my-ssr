@@ -23,6 +23,13 @@
     "_name": "_e23cdeee"
   },
   {
+    "name": "mavon",
+    "path": "/mavon",
+    "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/mavon.vue",
+    "chunkName": "pages/mavon",
+    "_name": "_8e28312c"
+  },
+  {
     "name": "nextick",
     "path": "/nextick",
     "component": "/Users/zego/Documents/Projects/fitor/ssr/my-ssr/pages/nextick/index.vue",
