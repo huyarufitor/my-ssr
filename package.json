@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "commitlint": "commitlint -e $HUSKY_GIT_PARAMS",
     "prepare": "husky install",
-    "log":"gitmoji-changelog --output CHANGELOG.md"
+    "log": "gitmoji-changelog --output CHANGELOG.md"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.1.0",
@@ -32,6 +32,7 @@
     "@nuxt/types": "latest",
     "@nuxt/typescript-build": "^2.1.0",
     "eslint": "^7.26.0",
+    "gitmoji-changelog": "^2.2.0",
     "husky": "^6.0.0",
     "node-sass": "^6.0.0",
     "sass-loader": "^11.1.1",
